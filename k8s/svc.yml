@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: contact-svc
+  namespace: k8s-3
+spec:
+  selector:
+    app: contact
+  ports:
+  - port: 80
+    targetPort: 80
