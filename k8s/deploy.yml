@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: contact
-        image: 861531569385.dkr.ecr.us-west-1.amazonaws.com/sparkjava:4
+        image: 861531569385.dkr.ecr.us-west-1.amazonaws.com/sparkjava:6
         resources:
           limits:
             memory: "128Mi"
